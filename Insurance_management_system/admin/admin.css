@@ -1,0 +1,53 @@
+body{
+    background-image:url(https://wallpaperaccess.com/full/749813.jpg);
+    background-size: cover;
+  
+    }
+.upper a{
+   display: inline-block;
+    background-color: rgb(40, 7, 40);
+    color: white;
+    border: 2px solid white;
+    padding: 1em 1em;
+    margin:0 0 0 2em;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: all 0.25s;
+
+    
+}
+.lower a{
+    display: inline-block;
+    background-color: rgb(40, 7, 40);
+    color: white;
+    border: 2px solid white;
+    padding: 1em 1em;
+    margin-top:12%;
+    margin-left: 2em;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: all 0.25s;
+}
+a:hover{
+    border-color: #f1ff5c;
+    color:black;
+    background:none;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translate(0.5em -0.25em);
+}
+.logout a{
+    margin-left: 90%;
+    text-decoration: none;
+    display: inline-block;
+    background:none;
+    border: 1px solid whitesmoke;
+    padding: 0 1em;
+    font-size: 1.5em;
+    color: white;
+}
+.title h2{
+    color: white;
+    margin-top: 5.5em;
+    margin-left: 4em;
+    font-size: 2.5em;
+}
